@@ -403,6 +403,26 @@
     .single-testi{
         max-width: 700px;
     }
+    .welcome-area .red .banner-img{
+        right: -110px;
+    }
+    .navbar-dark .navbar-brand img{
+        max-width: 250px;
+    }
+    .size-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .count-area .count-box{
+        flex: 0 0 50%;
+    }
+    .count-area{
+        flex-wrap: wrap;
+    }
+    .highlights-head .head{
+        margin-bottom: 55px;
+    }
+    
 }
 
 @media(max-width: 991px){
@@ -434,128 +454,131 @@
     .about-content{
         margin-bottom: 100px;
     }
-    .single-testi{
-        max-width: inherit;
-        margin-left: 0;
-        padding-top: 270px;
-        padding-left: 50px;
-    }
-    .testi-img{
-        top: 23%;
-        left: 20%;
-    }
-    .testi-area{
-        padding-bottom: 120px !important;
-    }
-    .testi-slider .owl-dots{
-        left: 50%;
-        padding-right: 0;
-        transform: translate(-50%,-50%);
-        bottom: -65px;
-        right: inherit;
-    }
     .footer-phone{
         padding-left: 0;
+    }
+    .size-content{
+        padding-left: 0;
+    }
+    .about-right{
+        margin-top: 55px;
+    }
+    .u-box{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .affliated-footers{
+        justify-content: center;
+        margin-top: 25px;
+        padding-left: 0;
+    }
+    .footer-logos{
+        justify-content: center;
+    }
+    .copy-right{
+        text-align: center;
     }
 }
 
 @media(max-width: 767px){
-    .barch-main .head h1{
-        font-size: 55px;
-    }
-    .barch-main .head p{
-        font-size: 24px;
-    }
-    .barch-main .content p {
-        color: #2a2a2a;
-        font-size: 17px;
-        line-height: 30px;
-        max-width: inherit;
-        margin-bottom: 65px;
-        font-weight: 400;
-    }
-    .bg-top{
-        position: absolute;
-        background-image: url(../img/bg/barch-top.png);
-        background-position: center;
-        top: 0;
-        left: 0;
-        max-width: 200px;
-        width: 120px;
-        height: 120px;
-    }
-    .bg-bottom{
-        position: absolute;
-        background-image: url(../img/bg/barch-bottom.png);
-        background-position: center;
-        bottom: 0;
-        right: 0;
-        max-width: 200px;
-        width: 200px;
-        height: 200px;
-    }
-    .b-arch-area{
-        height: auto;
-        padding-bottom: 80px;
-    }
-    .studio-box{
-        margin-bottom: 40px;
-    }
-    .fac-mainbox{
-        flex-direction: column;
-    }
-    .fac-box{
-        border-bottom: 2px solid #f5c08a;
-        border-right: 0;
-        padding-bottom: 25px;
-        margin-bottom: 50px;
-    }
-    .fac-box-last{
-        border-bottom: none;
-    }
-    .testi-head{
-        font-size: 35px;
-    }
-    .testi-img {
-        top: 20%;
-        left: 28%;
-    }
-    .footer-ad{
-        border-bottom: 1px solid #5d6c759c;
-        border-right: 0;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-    }
-    .footer-ad p{
-        font-size: 16px;
-    }
-    .footer-phone{
-        border-bottom: 1px solid #5d6c759c;
-        border-right: 0;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-    }
-    .footer-sec{
-        text-align: center;
-    }
     .contact-box .form-group input, .contact-box .form-group select{
         height: 60px;
+    }
+    .welcome-area .red{
+        flex: 0;
+    }
+    .welcome-area .bg-banner{
+        flex: 0 0 100%;
+        position: relative;
+        height: 680px;
+    }
+    .welcome-area{
+        height: 680px;
+    }
+    .overlay-bg-767{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: #cf1c29cc;
+        opacity: 0.8;
+    }
+    .navbar, .navbar-brand{
+        padding-right: 0;
+    }
+    .banner-content h1,
+    .banner-content h1 span{
+        color: #fff;
+    }
+    .banner-img-767{
+        display: block;
+        margin-top: 185px;
+        text-align: center;
+    }
+    .banner-img-767 img{
+        max-width: 250px;
+    }
+    .affiliateds{
+        flex-direction: column
+    }
+    .affilated-boxes,
+    .welcome-form{
+        flex: 0 0 100%;
+    }
+    .welcome-form{
+        margin-top: -100px;
+        margin-bottom: 25px;
+    }
+    .affiliated-area{
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .affilated-boxes{
+        order: 2;
+    }
+    .banner-content h1 span{
+        font-size: 40px;
+    }
+    .banner-content{
+        right: 26%;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .hg-box{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .hg-box .logo{
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+    .test-head{
+        margin-bottom: 100px;
+    }
+    .testi-slider .owl-nav {
+        top: -65px;
+    }
+    .testi-area{
+        padding-bottom: 80px;
+    }
+    .future-area{
+        flex-wrap: wrap;
+    }
+    .future-img,
+    .future-form{
+        flex: 0 0 100%;
     }
 }
 
 @media(max-width:575px){
-    .welcome-area{
-        height: 380px;
-    }
-    .pr-100{
-        padding-right: 15px;
-    }
     .form-group input, .form-group select{
         height: 50px;
         font-size: 16px;
     }
     .form-title h4{
-        font-size: 15px;
+        font-size: 25px;
     }
     .navbar-brand .navbar-brand-regular {
         max-width: 230px;
@@ -563,98 +586,113 @@
     .navbar-sticky-on .navbar-brand-sticky{
         max-width: 230px;
     }
-    .enq-top{
-        font-size: 15px;
-        padding: 10px 25px;
-    }
     .navbar{
-        padding-bottom: 0;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        background-color: #cf1c29;
     }
-    .welcome-form{
-        padding: 55px 35px;
+    .enq-top{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .banner-content{
+        right: auto;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    .banner-content h1 span{
+        color: #cf1c29;
+        font-size: 32px;
+    }
+    .banner-content h1{
+        color: #222f4b;
+        font-size: 45px;
+    }
+    .overlay-bg-767{
+        background-color: inherit;
     }
     .form-group input[type="submit"] {
         height: 50px;
     }
-    .affiliated-area{
-        padding-top: 250px;
+    .navbar-dark .navbar-brand img{
+        max-width: 160px;
     }
-    .b-arch-area{
-        padding: 85px 0 100px;
+    .welcome-form{
+        padding: 55px 30px;
     }
-    .barch-main .head p{
-        font-size: 20px;
+    .highlights-head .head h1{
+        font-size: 50px;
     }
-    .barch-main .head h1{
-        font-size: 45px;
+    .size-area{
+        padding: 50px 0;
     }
-    .barch-main .content p{
+    .size-content h2{
+        font-size: 15px;
+    }
+    .count-area .count-box h1{
+        padding: 15px 0;
+        font-size: 32px;
+    }
+    .count-area{
+        margin-bottom: 3px;
+    }
+    .size-content .btm-para{
+        line-height: 22px;
+    }
+    .download-bro{
+        margin-top: 45px;
+    }
+    .size-content {
+        padding-bottom: 20px;
+    }
+    .about-left .head h2{
+        font-size: 40px;
+        line-height: 1;
+        margin-top: 14px;
+    }
+    .about-area{
+        padding: 65px 0;
+    }
+    .about-left .para p{
         font-size: 16px;
-        line-height: 28px;
     }
-    .course-header h2{
-        font-size: 26px;
+    .test-head h2{
+        font-size: 28px;
     }
-    .fac-mainbox{
-        flex-wrap: wrap;
-        flex-direction: unset;
+    .test-head span{
+        font-size: 18px;
     }
-    .fac-box{
-        flex: 0 0 40%;
+    .testi-slider .owl-nav button span{
+        font-size: 40px;
+        line-height: 35px;
     }
-    .about-btn{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .about-btn .brochure{
-        margin-bottom: 40px;
-    }
-    .about-btn .apply a{
-        padding: 18px 52px;
-    }
-    .about-img{
-        height: 250px;
-    }
-    .about-area {
-        padding: 80px 0;
-    }
-    .testi-img {
-        top: 15%;
-        left: 38%;
+    .testi-slider .owl-nav button{
+        width: 40px;
+        height: 40px;
     }
     .single-testi{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 50px 30px;
     }
-    .gallery-area{
-        text-align: center;
+    .testi-name p{
+        font-size: 20px;
     }
-    .gallery-img img{
-        width: 100%;
+    .future-img{
+        height: 300px;
     }
+    .future-text h4{
+        font-size: 18px;
+    }
+    .contact-box .form-group{
+        margin-bottom: 16px;
+    }
+    .affliated-footers .af1 img, .affliated-footers .af2 img, .affliated-footers .af3 img{
+        max-width: 80px;
+    }
+    .testi-slider .owl-nav{
+        top: -30px;
+    }
+
+    
 }
 
-@media(max-width: 439px){
-    .navbar-brand .navbar-brand-regular {
-        max-width: 200px;
-    }
-    .navbar{
-        padding: 0 5px;
-    }
-    .enq-top{
-        font-size: 14px;
-        padding: 10px 24px;
-    }
-    .navbar-sticky-on .navbar-brand-sticky{
-        max-width: 200px;
-    }
-}
-
-@media(max-width: 376px){
-    .navbar-brand .navbar-brand-regular{
-        max-width: 180px;
-    }
-    .navbar-sticky-on .navbar-brand-sticky{
-        max-width: 180px;
-    }
-}
