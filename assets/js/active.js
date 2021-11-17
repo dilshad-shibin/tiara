@@ -109,8 +109,9 @@
 
     $('[data-fancybox]').fancybox({
         youtube: {
-            controls: 0,
-            showinfo: 0
+            controls: true,
+            // selector : '.imglist a:visible',
+            showinfo: true
         },
         vimeo: {
             color: 'f00'

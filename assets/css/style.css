@@ -921,6 +921,10 @@ a,
     max-width: 550px;
 }
 
+.about-right{
+    margin-top: 35px;
+}
+
 .about-right .head h2{
     color: #222f4b;
     margin-bottom: 30px;
